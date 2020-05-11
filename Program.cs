@@ -448,47 +448,26 @@ namespace ClimateADAPTPluginDemoApp
                 result = String.Format("Product Description: {0}", product.Description);
                 Console.WriteLine(result);
 
-                if (product.ProductComponents.Count > 0)
+                // If the product is a Mix
+                if (product.ProductType.ToString() == "Mix")
                 {
                     Console.WriteLine("Product Components:");
 
-                    // Calculate the total rates for each type of ProductComponent in the MixProduct
-                    double volumeTotalRate = 0;
-                    double massTotalRate = 0;
-                    foreach (ProductComponent component in product.ProductComponents)
-                    {
-                        if (component.Quantity.Value.UnitOfMeasure.Dimension == UnitOfMeasureDimensionEnum.Volume)
-                        {
-                            // gal
-                            volumeTotalRate += component.Quantity.Value.Value;
-                        }
-                        else if (component.Quantity.Value.UnitOfMeasure.Dimension == UnitOfMeasureDimensionEnum.Mass)
-                        {
-                            // lb
-                            massTotalRate += component.Quantity.Value.Value;
-                        }
-                    }
+                    // This gets the actual product usage
+                    MixProduct mixProduct = product as MixProduct;
+                    double totalProductRate = mixProduct.TotalQuantity.Value.Value;
 
-                    // Determine the correct total applied date for the MixProduct
-                    double totalRate = volumeTotalRate;
-                    if (totalRate == 0)
-                    {
-                        // The volumeTotalRate will be 0 for dry product mixes
-                        totalRate = massTotalRate;
-                    }
-
-                    // Calculate the total units of tank mix actually applied to the field.
-                    //  This is important to be able to determine the actual proportion of each ProductComponent 
-                    double totalUnitsOfMixProduct = totalAmount / volumeTotalRate;
-
+                    // Now loop through the product components
                     foreach (ProductComponent component in product.ProductComponents)
                     {
                         Product componentProduct = catalog.Products.Find(x => x.Id.ReferenceId == component.IngredientId);
                         double componentRate = component.Quantity.Value.Value;
 
-                        // Calculate the total amount of the product component
-                        double componentAmount = totalUnitsOfMixProduct * componentRate;
-                        double componentActualRate = componentAmount / totalArea;
+                        // Ratio of component rate compared to tank mix rate
+                        double componentActualRate = componentRate / totalProductRate;
+
+                        // Total usage of the component based on rate * area
+                        double componentAmount = componentActualRate * totalArea;
 
                         result = String.Format("Component: {0}\tAmount: {1:F2}\tRate: {2:F2} {3}/ac", componentProduct.Description, componentAmount, componentActualRate, component.Quantity.Value.UnitOfMeasure.Code);
                         Console.WriteLine(result);
