@@ -448,7 +448,8 @@ namespace ClimateADAPTPluginDemoApp
                 result = String.Format("Product Description: {0}", product.Description);
                 Console.WriteLine(result);
 
-                if (product.ProductComponents.Count > 0)
+                // If the product is a Mix
+                if (product.ProductType.ToString() == "Mix")
                 {
                     Console.WriteLine("Product Components:");
 
