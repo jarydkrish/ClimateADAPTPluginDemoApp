@@ -1,0 +1,28 @@
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\Resources\RepresentationSystem.xml
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\Resources\UnitSystem.xml
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\ClimateADAPTPluginDemoApp.exe.config
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\ClimateADAPTPluginDemoApp.exe
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\ClimateADAPTPluginDemoApp.pdb
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\AgGateway.ADAPT.ApplicationDataModel.dll
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\AgGateway.ADAPT.PluginManager.dll
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\AgGateway.ADAPT.Representation.dll
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\Ionic.Zip.dll
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.csprojAssemblyReference.cache
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.csproj.CoreCompileInputs.cache
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.csproj.CopyComplete
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.exe
+C:\Projects\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.pdb
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\Resources\RepresentationSystem.xml
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\Resources\UnitSystem.xml
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\ClimateADAPTPluginDemoApp.exe.config
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\ClimateADAPTPluginDemoApp.exe
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\ClimateADAPTPluginDemoApp.pdb
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\AgGateway.ADAPT.ApplicationDataModel.dll
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\AgGateway.ADAPT.PluginManager.dll
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\AgGateway.ADAPT.Representation.dll
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\bin\Debug\Ionic.Zip.dll
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.csprojAssemblyReference.cache
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.csproj.CoreCompileInputs.cache
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.csproj.CopyComplete
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.exe
+C:\Program Files\ClimateCorp\ClimateADAPTPlugin\ClimateADAPTPluginDemoApp\obj\Debug\ClimateADAPTPluginDemoApp.pdb
